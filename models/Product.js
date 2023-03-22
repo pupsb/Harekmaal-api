@@ -20,10 +20,10 @@ const ProductSchema = new moongoose.Schema(
 			type: Array,
 		},
 		size: {
-			type: string,
+			type: String,
 		},
 		color: {
-			type: string,
+			type: String,
 		},
 		price: {
 			type: Number,
